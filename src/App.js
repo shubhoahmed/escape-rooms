@@ -1,10 +1,11 @@
 
 import './App.css';
+import EscapeData from './Components/EscapeData.js/EscapeData';
 
 function App() {
   return (
     <div className="App">
-      <h1>Escape Rooms</h1>
+      <EscapeData></EscapeData>
     </div>
   );
 }
