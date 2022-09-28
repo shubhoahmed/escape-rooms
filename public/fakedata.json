@@ -1,0 +1,56 @@
+[
+    {
+        "id": "01",
+        "picture": " https://www.rd.com/wp-content/uploads/2020/11/What-am-i-riddle-1.jpg",
+        "time": 28,
+        "name": "Riddles"
+    },
+    {
+        "id": "02",
+        "picture": "https://www.chassidusapplied.com/wp-content/uploads/2018/08/ThinkstockPhotos-501642612.jpg",
+        "time": 29,
+        "name": "Deciphering"
+    },
+    {
+        "id": "03",
+        "picture": " https://www.smartbrainpuzzles.com/wp-content/uploads/2020/12/Logic-puzzle-fb-version.jpg ",
+        "time": 28,
+        "name": "Logic Puzzles"
+    },
+    {
+        "id": "04",
+        "picture": "https://mediaproxy.salon.com/width/1200/https://media.salon.com/2020/05/jigsaw-puzzle-0507201.jpg",
+        "time": 25,
+        "name": "Jigsaw Puzzles"
+    },
+    {
+        "id": "05",
+        "picture": "https://play-lh.googleusercontent.com/jQnjtlGOV2iNheGpJAW6yU5wzVwOC_bKs2JVgJUXK3faj4sN-Wc6GUPWAqbgDc2NNQ=w526-h296-rw",
+        "time": 22,
+        "name": "Hidden Objects"
+    },
+    {
+        "id": "06",
+        "picture": "https://lifeovercs.com/wp-content/uploads/2016/04/shape-matching-puzzle-fb.jpg",
+        "time": 20,
+        "name": "Matching Puzzles"
+    },
+    {
+        "id": "07",
+        "picture": "https://matheasily.com/IMG//math-puzzles.jpg",
+        "time": 32,
+        "name": "Math"
+    },
+    {
+        "id": "08",
+        "picture": "https://assets2.rockpapershotgun.com/a-little-to-the-left-keys-labelled.png/BROK/resize/1920x1920%3E/format/jpg/quality/80/a-little-to-the-left-keys-labelled.png ",
+        "time": 31,
+        "name": "Keys!"
+    },
+    {
+        "id": "09",
+        "picture": "https://www.harborfreight.com/media/catalog/product/cache/9fc4a8332f9638515cd199dd0f9238da/i/m/image_17564.jpg",
+        "time": 31,
+        "name": "Magnet Retrieval"
+    }
+]
