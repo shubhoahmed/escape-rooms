@@ -3,10 +3,13 @@ import EscapeDetails from '../EscapeDetails/EscapeDetails';
 import FinisTime from '../FinishTIme/FinisTime';
 
 const Profile = ({ totalTime }) => {
-    const [pausetime, setPausetime] = useState(0);
+    const pauseTimeDB = localStorage.getItem('pause-time')
+    const [pausetime, setPausetime] = useState(pauseTimeDB || 0);
+
 
     const pauseTimeDuration = (time) => {
-        setPausetime(time)
+        setPausetime(time);
+        localStorage.setItem('pause-time', time);
     }
 
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
-import { ToastContainer, toast } from 'react-toast'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const EscapeDetails = ({ totalTime, pausetime }) => {
     const wave = () => toast('Successful 👋')
@@ -10,7 +11,6 @@ const EscapeDetails = ({ totalTime, pausetime }) => {
                 <h2 className='my-8 font-semibold'>Total Duration : {totalTime}s</h2>
                 <h2 className='my-8 font-semibold'>Pause Time: {pausetime}s</h2>
                 <button onClick={() => wave(toast)} className="btn btn-primary w-full mt-8 mb-5">
-                    <ToastContainer />
                     Activity  Complete
                 </button>
             </div>
