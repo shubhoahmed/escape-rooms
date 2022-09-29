@@ -9,7 +9,7 @@ const EscapeDetails = ({ totalTime, pausetime }) => {
             <div className='mt-4 px-4'>
                 <h2 className='my-8 font-semibold'>Total Duration : {totalTime}s</h2>
                 <h2 className='my-8 font-semibold'>Pause Time: {pausetime}s</h2>
-                <button onClick={() => wave(toast)} className="btn btn-primary w-full mt-8 mb-3">
+                <button onClick={() => wave(toast)} className="btn btn-primary w-full mt-8 mb-5">
                     <ToastContainer />
                     Activity  Complete
                 </button>
