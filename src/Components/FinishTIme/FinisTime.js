@@ -10,7 +10,7 @@ const FinisTime = ({ pauseTimeDuration }) => {
                 <button onClick={() => pauseTimeDuration(35)} className="btn w-12 h-8 rounded-full ">35s</button>
                 <button onClick={() => pauseTimeDuration(45)} className="btn w-12 h-8 rounded-full">45s</button>
                 <button onClick={() => pauseTimeDuration(55)} className="btn w-12 h-8 rounded-full">55s</button>
-                <button onClick={() => pauseTimeDuration(60)} className="btn w-12 h-8 rounded-full">60s</button>
+
             </div>
         </div>
     );
