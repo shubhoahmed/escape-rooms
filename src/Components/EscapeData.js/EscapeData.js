@@ -4,11 +4,13 @@ import SingleEscape from '../SingleEscape/SingleEscape';
 
 const EscapeData = () => {
     const [escapes, setEscapes] = useState([]);
-    const [totalTime, setTotalTime] = useState(0);
+    const totalTimeDb = localStorage.getItem('total-duration');
+    const [totalTime, setTotalTime] = useState(+totalTimeDb);
 
     const totalTimeHandler = (time) => {
         const newTime = totalTime + time;
         setTotalTime(newTime);
+        localStorage.setItem('total-duration', newTime)
     }
 
     useEffect(() => {
